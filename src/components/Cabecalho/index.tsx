@@ -1,9 +1,10 @@
-import styles from './Cabecalho.module.css'
+import React from 'react'
+import * as Styled from './style' // Importando os estilos de style.ts
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
+const CabecalhoComponent = () => (
+  <Styled.Cabecalho>
     <h1>EBAC Jobs</h1>
-  </header>
+  </Styled.Cabecalho>
 )
 
-export default Cabecalho
+export default CabecalhoComponent
